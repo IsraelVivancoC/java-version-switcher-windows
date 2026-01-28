@@ -1,8 +1,6 @@
 @echo off
-REM Switch to Java 21 for current terminal session
-
-set JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-21.0.xxx
+set JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-21.0.9.10-hotspot
 set PATH=%JAVA_HOME%\bin;%PATH%
-
-echo Using Java:
+echo Switched to Java 21 
 java -version
+pause
